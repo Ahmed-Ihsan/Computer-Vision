@@ -1,6 +1,6 @@
 import cv2
-# import numpy as np
-# from threading import Thread
+import numpy as np
+from threading import Thread
 
 def resize(img):
         return cv2.resize(img,(500,500))
